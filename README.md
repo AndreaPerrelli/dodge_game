@@ -21,12 +21,13 @@ This repository contains an **enhanced Pygame-based dodging game** where a playe
 Install dependencies with:
 ```bash
 pip install pygame numpy matplotlib
-
+```
 ## **🎮 How to Play**
 Run the game in different modes:
 
 ```bash
 python main.py
+```
 - Enter **"play"** to control the player manually.  
 - Enter **"train"** to train the RL agent.  
 - Enter **"load"** to load a pre-trained AI model.  
@@ -36,7 +37,7 @@ Train the agent with:
 
 ```bash
 python main.py
-
+```
 Then enter **"train"** and specify the number of episodes.  
 
 The agent learns using **Q-learning**, adjusting its movements to maximize survival time.  
