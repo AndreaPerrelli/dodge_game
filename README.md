@@ -22,28 +22,28 @@ Install dependencies with:
 ```bash
 pip install pygame numpy matplotlib
 
-🎮 How to Play
+## **🎮 How to Play**
 Run the game in different modes:
 
-bash
-Copy
-Edit
+```bash
 python main.py
-Enter "play" to control the player manually.
-Enter "train" to train the RL agent.
-Enter "load" to load a pre-trained AI model.
-🧠 Training the AI
-Train the agent with:
+- Enter **"play"** to control the player manually.  
+- Enter **"train"** to train the RL agent.  
+- Enter **"load"** to load a pre-trained AI model.  
 
-bash
-Copy
-Edit
+## **🧠 Training the AI**  
+Train the agent with:  
+
+```bash
 python main.py
-Then enter "train" and specify the number of episodes.
 
-The agent learns using Q-learning, adjusting its movements to maximize survival time. The trained model is saved as q_table.pkl.
+Then enter **"train"** and specify the number of episodes.  
 
-📊 Watch the AI Play
-After training, you can let the AI play by entering "load" and watching it in action!
+The agent learns using **Q-learning**, adjusting its movements to maximize survival time.  
+The trained model is saved as `q_table.pkl`.  
+
+## **📊 Watch the AI Play**  
+After training, you can let the AI play by entering **"load"** and watching it in action!  
+
 
 
